@@ -1,0 +1,182 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	
+}
+body{
+	background-image:url("pexels-element-digital-1470162.jpg");
+	background-size: cover;
+}
+
+header{
+    width: 100vw;
+    height: 20%;
+    border-bottom: solid 1px rgba(16, 16, 16, 0.1);
+    font-family: 'Poppins';
+	
+	
+}
+
+header .inner{
+    width: 1300px; /* This is the inner width of the content inside of your header (80%, etc) */
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+header .logo{
+    display: table;
+    height: 100%;
+    float: left;
+}
+
+
+header .logo div{
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header .logo img{
+    height: 70px;
+    margin-top: 5px; /* Optical alignment of the logo */
+}
+
+header nav{
+    float: right;
+    height: 100%;
+	
+}
+
+header nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    margin-right: 30px;
+	
+}
+
+
+header nav li:last-of-type{
+    margin-right: 0;
+}
+
+header nav span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+header nav a{
+    color: #101010;
+}
+
+header nav .button{
+    background-color: #1ab26b; /* This HEX is the color of the button */
+    color: #FFF;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+header nav .button:hover{
+    filter: brightness(1.05);
+}
+.container .body form
+{
+    position:absolute;
+    left:10%;
+    top:40%;
+
+} 
+.container .body form input[type=text]
+{
+    margin:10px;
+    height:40px;
+    width:200px;
+    border-radius: 8px;
+    border:2px solid rgb(59, 56, 56);
+    
+}
+.container .body form h5
+{
+    text-align: center;
+    font-family:'Secular One', sans-serif;
+    font-weight:normal;
+    font-size: medium;
+    width: 400px;
+    color:rgb(255, 0, 0);
+}
+
+.container .body form .submit
+{
+    
+    padding-left:30%;
+}
+.container .body form input[type="submit"]
+{
+    margin: 10px;
+    background-color: rgba(74, 20, 251, 0.81);
+    border-color: rgba(74, 20, 251, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:200px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+.container .body form input[type="submit"]:hover
+{
+    margin: 10px;
+    background-color: rgba(74, 20, 251, 0.81);
+    border-color: rgba(74, 20, 251, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:200px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 130%;
+    
+}
+
+.container .body form .enter_username
+{
+    font-family:'Secular One', sans-serif;
+    font-size: 23px;
+}
+.container .body form p
+{
+    margin:5px;
+    font-family: 'Oxygen', sans-serif;
+    color:rgb(65, 66, 67);
+    font-weight: bold;
+    padding-left: 150px;
+}
+.container .body form p a
+{
+    padding-left:0px;
+    color:red;
+}
+.container .footer 
+{
+    position:absolute;
+    left:1%;
+    bottom:3%;
+    border-top: 1px solid rgba(16, 16, 16, 0.1);;
+    width:99%;
+    
+}
+.container .footer h4
+{
+    position:static;
+    padding-top: 8px;
+    color:rgb(10, 10, 10);
+}
+.container .footer li
+{
+    list-style: none;
+    color:rgb(0, 0, 0);
+}

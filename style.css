@@ -1,0 +1,858 @@
+*
+{
+    box-sizing: border-box;
+}
+body .container
+{
+    background-image: url("R.jpg");
+    background-size: cover;
+    height: 100%;
+    z-index: -1;
+}
+.container .header
+{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    left:15%; 
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    
+
+}
+.header img
+{
+  margin-top: 20px;
+
+}
+.header h1
+{
+    margin-top: 50px;
+    padding-left: 10px;
+    
+}
+.sides .leftside
+{
+    position:absolute;
+    left:20%;
+    top:35%;
+}
+form h4
+{
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 100, 100);
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color:red;
+}
+
+form input[type=text]
+{
+    margin:10px;
+    height:40px;
+    width:300px;
+    border-radius: 8px;
+    border:2px solid rgb(59, 56, 56);
+    
+}
+form input[type="password"]
+{
+    margin:10px;
+    height:40px;
+    width:300px;
+    border-radius: 8px;
+    border:2px solid rgb(59, 56, 56)
+}
+/*form input[type=checkbox]
+{
+
+}*/
+
+.leftside form .remember_me
+{
+    margin:5px;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+}
+form .remember_me .forget_pw
+{
+    padding-left:10px;
+    background-color: aqua;
+}
+form .login
+{
+    padding-left: 50px;   
+}
+form input[type="submit"]
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(0, 47, 255, 0.81);
+    border-color: rgba(0, 47, 255, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:200px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+form input[type="submit"]:hover
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(0, 47, 255, 0.81);
+    border-color: rgba(0, 47, 255, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:200px;
+    font-size:130%;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    
+    
+}
+form .create_account
+{
+    padding-left: 25px;   
+}
+form input[type="button"]
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(74, 251, 20, 0.81);
+    border-color: rgba(74, 251, 20, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:250px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 18px;
+}
+form input[type="button"]:hover
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(74, 251, 20, 0.81);
+    border-color: rgba(74, 251, 20, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:250px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size:130%;
+}
+
+.sides .rightside
+{
+    position:absolute;
+    left:55%;
+    margin:20px;
+    top:35%;
+    border:5px;
+    border-left-style:solid;
+    border-color: rgb(165, 167, 166);
+    border-radius: 5px;
+    
+}
+.sides .rightside h2
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-family:'Secular One', sans-serif;
+
+}
+.sides .rightside p
+{
+    width:450px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 30px;
+    font-family: 'Oxygen', sans-serif;
+}
+.container .footer 
+{
+    position:absolute;
+    left:0;
+    bottom:3%;
+    
+}
+.container .footer h3
+{
+    position:absolute;
+    padding-left: 26px;
+    padding-top: 8px;
+    color:rgb(240, 255, 253);
+}
+.container .footer li
+{
+    list-style: none;
+    color:rgb(240, 255, 253);
+}
+
+
+/*@media screen and (max-width:480px)
+{
+    body .container
+    {
+        background-image: url("R.jpg");
+        height: 100%;
+        width:auto;
+        z-index: -1;
+        background-size: cover;
+    }
+    .header img
+    {
+    margin-top: 9%;
+    height:20%; 
+    width:20%;
+
+    }
+    .header h1
+    {
+        font-size:1.2rem;
+    }
+    .sides .leftside
+    {
+        position:absolute;
+        top:18%;
+    }
+    .leftside form
+    {
+        text-align: center;
+    }
+    form input[type=text]
+    {
+        margin:0.625em;
+        height:4.3vh;
+        width:45vw;
+        border-radius: 0.5rem;
+        border:0.25em solid rgb(59, 56, 56);
+        
+    }
+    form input[type="password"]
+    {
+        margin:0.625em;
+        height:4.3vh;
+        width:45vw;
+        border-radius: 0.5rem;
+        border:0.25em solid rgb(59, 56, 56);
+    }
+
+
+    .leftside form .remember_me
+    {
+        margin:5px;
+        font-family: 'Oxygen', sans-serif;
+        font-size: small;
+        font-weight: 400;
+    }
+    form .remember_me .forget_pw
+    {
+        padding-left:10px;
+        background-color: aqua;
+    }
+    form .login
+    {
+        padding-left: 20px;   
+    }
+    form input[type="submit"]
+    {
+        margin:6px;
+        left:100px;
+        background-color: rgba(0, 47, 255, 0.81);
+        border-color: rgba(0, 47, 255, 0.81);
+        color:aliceblue;
+        height:25px;
+        width:200px;
+        border-radius: 20px;
+        font-family:'Times New Roman', Times, serif ;
+        font-weight: 500;
+        font-size: 18px;
+
+    }
+    form input[type="submit"]:hover
+    {
+        margin:6px;
+        left:100px;
+        background-color: rgba(0, 47, 255, 0.81);
+        border-color: rgba(0, 47, 255, 0.81);
+        color:aliceblue;
+        height:25px;
+        width:200px;
+        font-size:113%;
+        border-radius: 20px;
+        font-family:'Times New Roman', Times, serif ;
+        font-weight: 500;
+        
+        
+    }
+    form .create_account
+    {
+        padding-left: 18px;   
+    }
+    form input[type="button"]
+    {
+        margin:6px;
+        left:100px;
+        background-color: rgba(74, 251, 20, 0.81);
+        border-color: rgba(74, 251, 20, 0.81);
+        color:aliceblue;
+        height:25px;
+        width:auto;
+        border-radius: 20px;
+        font-family:'Times New Roman', Times, serif ;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    form input[type="button"]:hover
+    {
+        margin:6px;
+        left:100px;
+        background-color: rgba(74, 251, 20, 0.81);
+        border-color: rgba(74, 251, 20, 0.81);
+        color:aliceblue;
+        height:25px;
+        width:204px;
+        border-radius: 20px;
+        font-family:'Times New Roman', Times, serif ;
+        font-weight: 500;
+        font-size:110%;
+    }
+    .sides .rightside
+    {
+        position:absolute;
+        margin:10px;
+        left:3%;
+        top:55%;
+        border:4px;
+        border-top-style:solid;
+        border-color: rgb(165, 167, 166);
+        border-radius: 5px;
+        
+    }
+    .sides .rightside h2
+    {
+        text-align: center;
+        font-weight: bolder;
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-family:'Secular One', sans-serif;
+        color:beige;
+    
+    }
+    .sides .rightside p
+    {
+        width:auto;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 70px;
+        font-size: small;
+        font-weight: 500;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        text-align: center;
+        line-height: 25px;
+        font-family: 'Oxygen', sans-serif;
+        color:beige;
+    }
+    .container .footer h3
+    {
+        bottom:35%;
+        left:5%;
+        font-size: small;
+        color:beige;
+    }
+    .container .footer ul
+    {
+        text-align:justify;
+    }
+    .container .footer li
+    {
+        left:20%;
+        list-style: none;
+        font-size: small;
+        color:beige;
+    }
+
+}
+
+@media screen and (min-width:726px){
+	*
+{
+    box-sizing: border-box;
+	
+}
+html {
+    width: 100%;
+}
+html, body {
+  margin:0px;
+  height:100%;
+  padding:0px;
+}
+	body .container
+{
+	height:100%;
+	width:100%;
+    background-image: url("R.jpg");
+  
+    background-size: cover;
+}
+
+.container .header
+{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    left:15%; 
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 100%; 
+    
+
+}
+.header img
+{
+  margin-top: 20px;
+
+}
+.header h1
+{
+    margin-top: 50px;
+    padding-left: 10px;
+    
+}
+.sides{
+	margin:0px;
+  height:100%;
+  padding:0px;
+  width: 100%;
+	border-style: inset;
+  border-color: coral; 
+}
+.sides .leftside
+{
+	width:50%;
+    position:absolute;
+    left:9%;
+    top:35%;
+	
+	
+}
+form h4
+{
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 100, 100);
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color:red;
+}
+
+form input[type=text]
+{
+    margin:5px;
+    height:25px;
+    width:200px;
+    border-radius: 5px;
+    border:1.5px solid rgb(59, 56, 56);
+    
+}
+form input[type="password"]
+{
+    margin:5px;
+    height:25px;
+    width:200px;
+    border-radius: 5px;
+    border:1.5px solid rgb(59, 56, 56);
+}
+
+
+.leftside form .remember_me
+{
+    margin:1px;
+	margin-right:0;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+	font-size:12px;
+}
+form .remember_me .forget_pw
+{
+    padding-left:0px;
+    background-color: aqua;
+	
+}
+form .login
+{
+    padding-left:0px;   
+}
+form input[type="submit"]
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(0, 47, 255, 0.81);
+    border-color: rgba(0, 47, 255, 0.81);
+    color:aliceblue;
+    height:30px;
+    width:150px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+form input[type="submit"]:hover
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(0, 47, 255, 0.81);
+    border-color: rgba(0, 47, 255, 0.81);
+    color:aliceblue;
+    height:30px;
+    width:150px;
+    font-size:130%;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    
+    
+}
+form .create_account
+{
+    padding-left: 0px;   
+}
+form input[type="button"]
+{
+    margin:10px;
+    left:50px;
+    background-color: rgba(74, 251, 20, 0.81);
+    border-color: rgba(74, 251, 20, 0.81);
+    color:aliceblue;
+    height:30px;
+    width:150px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 18px;
+}
+form input[type="button"]:hover
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(74, 251, 20, 0.81);
+    border-color: rgba(74, 251, 20, 0.81);
+    color:aliceblue;
+    height:30px;
+    width:150px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size:130%;
+}
+
+.sides .rightside
+{
+    position:absolute;
+    left:50%;
+    margin:10px;
+    top:35%;
+    border:5px;
+    border-left-style:solid;
+    border-color: rgb(165, 167, 166);
+    border-radius: 5px;
+    
+}
+.sides .rightside h2
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family:'Secular One', sans-serif;
+
+}
+.sides .rightside p
+{
+    width:350px;
+    padding-left: 15px;
+	padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 15px;
+    font-family: 'Oxygen', sans-serif;
+}
+.container .footer 
+{
+    position:absolute;
+    left:0;
+    bottom:3%;
+    
+}
+.container .footer h3
+{
+    position:absolute;
+    padding-left: 26px;
+    padding-top: 8px;
+    color:rgb(240, 255, 253);
+}
+.container .footer li
+{
+    list-style: none;
+    color:rgb(240, 255, 253);
+}
+
+}
+@media screen and (min-width: 480px) and (max-width:726px){
+	*
+{
+    box-sizing: border-box;
+	
+}
+html {
+    width: 100%;
+}
+html, body {
+  margin:0px;
+  height:100%;
+  padding:0px;
+}
+body .container
+{
+	
+	height:800px;
+	width:750px;
+    background-image: url("R.jpg");
+  border-style: solid;
+    background-size: cover;
+	 background-repeat: no-repeat;
+}
+
+.container .header
+{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    left:15%; 
+	height:20;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 100%;
+    
+
+}
+.header img
+{
+  margin-top: 20px;
+
+}
+.header h1
+{
+    margin-top: 50px;
+    padding-left: 10px;
+	
+    
+}
+.sides{
+	margin-bottom:0px;
+  height:70%;
+  padding:10px;
+  width: 100%;
+	
+}
+.sides .leftside
+{
+	width:50%;
+    position:absolute;
+    left:9%;
+    top:35%;
+	
+	
+}
+form h4
+{
+    text-align:center;
+    text-decoration: underline;
+    text-decoration-color: rgb(197, 100, 100);
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    color:red;
+}
+
+form input[type=text]
+{
+    margin:5px;
+    height:25px;
+    width:200px;
+    border-radius: 5px;
+    border:1.5px solid rgb(59, 56, 56);
+    
+}
+form input[type="password"]
+{
+    margin:5px;
+    height:25px;
+    width:200px;
+    border-radius: 5px;
+    border:1.5px solid rgb(59, 56, 56);
+}
+
+
+.leftside form .remember_me
+{
+    margin:1px;
+	margin-right:0;
+    font-family: 'Oxygen', sans-serif;
+    font-weight: 400;
+	font-size:12px;
+}
+form .remember_me .forget_pw
+{
+    padding-left:0px;
+    background-color: aqua;
+	
+}
+form .login
+{
+    padding-left:0px;   
+}
+form input[type="submit"]
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(0, 47, 255, 0.81);
+    border-color: rgba(0, 47, 255, 0.81);
+    color:aliceblue;
+    height:30px;
+    width:150px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+form input[type="submit"]:hover
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(0, 47, 255, 0.81);
+    border-color: rgba(0, 47, 255, 0.81);
+    color:aliceblue;
+    height:30px;
+    width:150px;
+    font-size:130%;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    
+    
+}
+form .create_account
+{
+    padding-left: 0px;   
+}
+form input[type="button"]
+{
+    margin:10px;
+    left:50px;
+    background-color: rgba(74, 251, 20, 0.81);
+    border-color: rgba(74, 251, 20, 0.81);
+    color:aliceblue;
+    height:30px;
+    width:150px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 18px;
+}
+form input[type="button"]:hover
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(74, 251, 20, 0.81);
+    border-color: rgba(74, 251, 20, 0.81);
+    color:aliceblue;
+    height:30px;
+    width:150px;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size:130%;
+}
+
+.sides .rightside
+{
+    position:absolute;
+    left:55%;
+    margin:10px;
+    top:35%;
+    border:5px;
+    border-left-style:solid;
+    border-color: rgb(165, 167, 166);
+    border-radius: 5px;
+    
+}
+.sides .rightside h2
+{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    font-family:'Secular One', sans-serif;
+
+}
+.sides .rightside p
+{
+    width:350px;
+    padding-left: 15px;
+	padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: capitalize;
+    text-align: center;
+    line-height: 15px;
+    font-family: 'Oxygen', sans-serif;
+}
+.container .footer 
+{	height:10;
+    position:absolute;
+    left:0;
+    bottom:0%;
+    
+}
+.container .footer h3
+{
+    position:absolute;
+    padding-left: 26px;
+    padding-top: 8px;
+    color:rgb(240, 255, 253);
+}
+.container .footer li
+{
+    list-style: none;
+    color:rgb(240, 255, 253);
+}
+
+}*/

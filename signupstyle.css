@@ -1,0 +1,122 @@
+*
+{
+    box-sizing: border-box;
+}
+.container 
+{
+    background-image: url("R.jpg");
+    height:100%;
+}
+.container .header
+{
+    position:absolute;
+    display:flex;
+    flex-direction: row;
+    left:15%; 
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+}
+.form h1
+{
+    text-align: center;
+    font-family:'Secular One', sans-serif;
+    font-weight: bold;
+    color:rgb(106, 106, 106);
+}
+.form h2
+{
+    text-align: center;
+    font-family:'Secular One', sans-serif;
+    font-weight:normal;
+    font-size: small;
+    line-height: 1px;
+    width:300px;
+    color:rgb(255, 0, 0);
+}
+.form h3
+{
+    text-align: center;
+    font-family:'Secular One', sans-serif;
+    font-weight:normal;
+    font-size: medium;
+    width:300px;
+    color:rgb(255, 0, 0);
+}
+.container .form
+{
+    position:absolute;
+    left:38%;
+    top:17%;
+    background-image: url("R2.jpg");
+    background-size: cover;
+    border-radius: 20px;
+    padding:20px;
+}
+form input[type=text]
+{
+    margin:10px;
+    height:40px;
+    width:300px;
+    border-radius: 8px;
+    border:2px solid rgb(59, 56, 56);
+    
+}
+form input[type="password"]
+{
+    margin:10px;
+    height:40px;
+    width:300px;
+    border-radius: 8px;
+    border:2px solid rgb(59, 56, 56)
+}
+
+form input[type="email"]
+{
+    margin:10px;
+    height:40px;
+    width:300px;
+    border-radius: 8px;
+    border:2px solid rgb(59, 56, 56)
+}
+form button[type="submit"]
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(0, 47, 255, 0.81);
+    border-color: rgba(0, 47, 255, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:300px;
+    border-radius: 8px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 18px;
+}
+form input[type="submit"]:hover
+{
+    margin:10px;
+    left:100px;
+    background-color: rgba(20, 248, 20, 0.81);
+    border-color: rgba(20, 248, 20, 0.81);
+    color:aliceblue;
+    height:40px;
+    width:300px;
+    border-radius: 8px;
+    font-family:'Times New Roman', Times, serif ;
+    font-weight: 500;
+    font-size: 18px;
+}
+form .login
+{
+    margin:5px;
+    font-family: 'Oxygen', sans-serif;
+    color:aliceblue;
+    font-weight: bold;
+    padding-left: 65px;
+}
+form .login a
+{
+    color:rgb(75, 75, 231);
+    text-decoration: none;
+}
